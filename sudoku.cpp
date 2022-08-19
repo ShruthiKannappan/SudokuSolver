@@ -56,10 +56,6 @@ int gen_val(int i,int j) // generates the least possible value greater than the 
     while(!check(i,j,val))
     {
         val++;
-{
-    int val=a[i][j]+1;
-    while(!check(i,j,val))
-    {
     }
     if(val<10) return val;
     else return -1;
